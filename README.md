@@ -19,7 +19,8 @@ opennebula :
                NOTE : if your ip private you want to access public : you use IP PORT FORWARDING 
                su - oneadmin
                ssh-keygen -t -rsa
-               ping opennebula
+               
+               ping opennebula #test ping 
                ssh-copy-id opennebula
                Lupa pass :
                su - oneadmin
@@ -27,3 +28,6 @@ opennebula :
         
 2. Access open nebula dan use port : 
       using your IP : http:10.10.10.10:9869
+      using your public host  : http:opennebula
+      using your private host ( using port forwading for access public domain) 
+      
